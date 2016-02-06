@@ -17,9 +17,11 @@ class MD5Iterator extends FineBrowserIterator
         "MD5" => md5_file($key)
       ];
       return $record;
-    }else{
-      $this->next();
+    }elseif($this->next()){
+      // $this->next();
       return $this->current();
+    }else{
+      return false;
     }
   }
 }

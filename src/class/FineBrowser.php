@@ -18,6 +18,5 @@ class FineBrowser{
     }
     return $scores;
   }
-  static function md5controll
 }
 ?>
