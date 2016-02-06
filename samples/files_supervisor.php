@@ -6,4 +6,7 @@ include_once('../src/load.php');//Load class_uses
 echo 'FilesSupervisor example';
 $filesSupervisor = new FilesSupervisor(".");
 $filesSupervisor->sum_to_file('.','md5s.csv');
+// $filesSupervisor->sum_to_file();
+$changes = $filesSupervisor->cmp_sum_files('files_supervisor_md5_2016-02-06-15-04-18.csv','md5s.csv');
+print_r($changes);
 ?>
