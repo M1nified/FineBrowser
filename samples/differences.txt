@@ -1,0 +1,20 @@
+Array
+(
+    [NEW] => Array
+        (
+            [0] => D:\GitHub\FineBrowser\samples\differences.txt
+            [1] => D:\GitHub\FineBrowser\samples\somefileslocation\somelocation2\somefile4
+        )
+
+    [MODIFIED] => Array
+        (
+            [0] => D:\GitHub\FineBrowser\samples\files_supervisor.php
+            [1] => D:\GitHub\FineBrowser\samples\files_supervisor_md5_2016-02-06-15-04-18.csv
+            [2] => D:\GitHub\FineBrowser\samples\md5s.csv
+        )
+
+    [REMOVED] => Array
+        (
+        )
+
+)
